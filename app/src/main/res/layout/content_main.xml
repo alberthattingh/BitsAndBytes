@@ -12,5 +12,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@android:color/black"
-        android:orientation="vertical"/>
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/diceButton"
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:contentDescription="@string/btnDiceString"
+            app:srcCompat="@drawable/new_dices" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
