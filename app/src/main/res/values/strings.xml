@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bits&amp;Bytes</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnDiceString">Dice</string>
+    <string name="btnCardsString">Draw A Card</string>
+    <string name="btnTimerString">Timer</string>
+</resources>
