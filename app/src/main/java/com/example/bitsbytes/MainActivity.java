@@ -1,5 +1,6 @@
 package com.example.bitsbytes;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -22,22 +23,31 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-
         ImageButton diceButton = findViewById(R.id.diceButton);
+        ImageButton cardsButton = findViewById(R.id.cardsButton);
+        ImageButton timerButton = findViewById(R.id.timerButton);
+
         diceButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Random rand = new Random();
-                int r1 = rand.nextInt(6) + 1;
-                Log.d("BitsBytes", "The button has been pressed.\nYour number is: " + r1);
+                Intent intent = new Intent(MainActivity.this, DiceActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CardsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        timerButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, TimerActivity.class);
+                startActivity(intent);
             }
         });
     }

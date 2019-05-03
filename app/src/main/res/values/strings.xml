@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">Bits&amp;Bytes</string>
     <string name="action_settings">Settings</string>
-    <string name="btnDiceString">Dice</string>
+    <string name="btnDiceString">Roll</string>
     <string name="btnCardsString">Draw A Card</string>
     <string name="btnTimerString">Timer</string>
+    <string name="title_activity_dice">DiceActivity</string>
+    <string name="titleDice">Dice</string>
+    <string name="title_activity_cards">Cards</string>
+    <string name="title_activity_timer">Timer</string>
 </resources>
