@@ -10,6 +10,12 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
+/**
+ * Bits&Bytes
+ * @version 1
+ * @author Albert Hattingh
+ * TimerActivity.java
+ */
 public class TimerActivity extends AppCompatActivity {
 
     public int counter;
@@ -21,7 +27,7 @@ public class TimerActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        final int TIME = 30;
+        final int TIME = 60;
         final TextView time = findViewById(R.id.timeText);
 
         counter = TIME;

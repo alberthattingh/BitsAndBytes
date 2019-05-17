@@ -11,6 +11,12 @@ import android.widget.ImageView;
 
 import java.util.Random;
 
+/**
+ * Bits&Bytes
+ * @version 1
+ * @author Albert Hattingh
+ * DiceActivity.java
+ */
 public class DiceActivity extends AppCompatActivity {
 
     @Override

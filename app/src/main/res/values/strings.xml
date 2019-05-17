@@ -8,4 +8,5 @@
     <string name="titleDice">Dice</string>
     <string name="title_activity_cards">Cards</string>
     <string name="title_activity_timer">Timer</string>
+    <string name="author">Albert Hattingh</string>
 </resources>

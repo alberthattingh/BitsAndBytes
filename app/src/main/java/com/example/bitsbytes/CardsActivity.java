@@ -15,6 +15,12 @@ import java.io.FileReader;
 import java.io.InputStreamReader;
 import java.util.Random;
 
+/**
+ * Bits&Bytes
+ * @version 1
+ * @author Albert Hattingh
+ * CardsActivity.java
+ */
 public class CardsActivity extends AppCompatActivity {
 
     public int counter, time;
@@ -47,7 +53,7 @@ public class CardsActivity extends AppCompatActivity {
         }
         else if (choice == 1)
         {
-            time = 30;
+            time = 60;
             title.setText("Scratch");
             String randomScratch = getRandomScratch();
             scratch.setText(randomScratch);
@@ -71,10 +77,10 @@ public class CardsActivity extends AppCompatActivity {
     }
 
     /** The maximun amount of lines that can be read from the trivia input text file */
-    private static final int MAX_T = 20;
+    private static final int MAX_T = 54;
 
     /** The maximum amount of lines that can be read from the scratch input text file */
-    private static final int MAX_S = 3;
+    private static final int MAX_S = 9;
 
     /** The amount of lines that was read from the trivia text file */
     private int lines_t;

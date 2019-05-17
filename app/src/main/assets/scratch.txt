@@ -1,3 +1,9 @@
-Write an if-statement that prints different text to the screen depending on whether the condition is true or not.
-Write a for-loop to add 5 numbers together. Print the result.
-Write a for-loop to multiply 5 numbers with each other. Print the result.
+Do and display the following calculation: 3 - 2 + 2 x 4
+Display the whole 2x table.
+Make the cat move by arrow key press in direction of arrow, let it move 10 steps with each press.
+Let the user type in 2 names and then compare if it is the same.
+Let the user type in 2 numbers, multiply those numbers and test if it is bigger than a 100.
+Let the user type in a word, then test if the word contains a vowel display each vowel it has.
+Let the user type in 2 words, then join the words
+Do a Multiply calculation with 2 random numbers. (#1: 1-10) (#2: 11-20)
+Let the user type in a number between 1 and 5 and check if it is the same as a random number between 1 and 5

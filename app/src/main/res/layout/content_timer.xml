@@ -29,5 +29,13 @@
             android:layout_height="wrap_content"
             android:contentDescription="@string/btnTimerString"
             app:srcCompat="@drawable/timer" />
+
+        <TextView
+            android:id="@+id/easterEgg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/author"
+            android:textColor="@android:color/black"
+            tools:text="@string/author" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

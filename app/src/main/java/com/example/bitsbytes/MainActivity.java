@@ -14,6 +14,12 @@ import android.widget.ImageButton;
 
 import java.util.Random;
 
+/**
+ * Bits&Bytes
+ * @version 1
+ * @author Albert Hattingh
+ * MainActivity.java
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
